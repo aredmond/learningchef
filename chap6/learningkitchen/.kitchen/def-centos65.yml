@@ -1,0 +1,6 @@
+---
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: "/home/andr8673/learningkitchen/.kitchen/kitchen-vagrant/kitchen-learningkitchen-def-centos65/.vagrant/machines/default/virtualbox/private_key"
+last_action: create
