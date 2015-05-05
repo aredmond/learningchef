@@ -21,6 +21,6 @@ end
 
 # reconfigure the installation
 execute 'chef-server-ctl reconfigure' do
-    command  'chef-server-ctl reconfigure'
+    command  'chef-server-ctl install opscode-manage; chef-server-ctl reconfigure; opscode-manage-ctl reconfigure'
     action :nothing
 end
