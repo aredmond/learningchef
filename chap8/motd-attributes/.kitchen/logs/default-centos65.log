@@ -1,34 +1,5 @@
-I, [2015-05-05T09:15:09.955066 #14630]  INFO -- default-centos65: -----> Converging <default-centos65>...
-I, [2015-05-05T09:15:09.955595 #14630]  INFO -- default-centos65: Preparing files for transfer
-I, [2015-05-05T09:15:09.955669 #14630]  INFO -- default-centos65: Preparing dna.json
-I, [2015-05-05T09:15:09.955852 #14630]  INFO -- default-centos65: Preparing current project directory as a cookbook
-I, [2015-05-05T09:15:09.959072 #14630]  INFO -- default-centos65: Removing non-cookbook files before transfer
-I, [2015-05-05T09:15:09.960182 #14630]  INFO -- default-centos65: Preparing validation.pem
-I, [2015-05-05T09:15:09.960385 #14630]  INFO -- default-centos65: Preparing client.rb
-I, [2015-05-05T09:15:10.102339 #14630]  INFO -- default-centos65: -----> Chef Omnibus installation detected (install only if missing)
-I, [2015-05-05T09:15:10.142356 #14630]  INFO -- default-centos65: Transferring files to <default-centos65>
-I, [2015-05-05T09:15:11.407865 #14630]  INFO -- default-centos65: Starting Chef Client, version 12.3.0
-I, [2015-05-05T09:15:12.386432 #14630]  INFO -- default-centos65: [2015-05-05T14:15:12+00:00] WARN: Child with name 'dna.json' found in multiple directories: /tmp/kitchen/dna.json and /tmp/kitchen/dna.json
-I, [2015-05-05T09:15:12.394350 #14630]  INFO -- default-centos65: resolving cookbooks for run list: ["motd-attributes::default"]
-I, [2015-05-05T09:15:12.410182 #14630]  INFO -- default-centos65: Synchronizing Cookbooks:
-I, [2015-05-05T09:15:12.414811 #14630]  INFO -- default-centos65:   - motd-attributes
-I, [2015-05-05T09:15:12.414895 #14630]  INFO -- default-centos65: Compiling Cookbooks...
-I, [2015-05-05T09:15:12.427124 #14630]  INFO -- default-centos65: [["set_unless_enabled?", false],
-I, [2015-05-05T09:15:12.427253 #14630]  INFO -- default-centos65:  ["default", "1.1.1.1"],
-I, [2015-05-05T09:15:12.427279 #14630]  INFO -- default-centos65:  ["env_default", :not_present],
-I, [2015-05-05T09:15:12.427325 #14630]  INFO -- default-centos65:  ["role_default", :not_present],
-I, [2015-05-05T09:15:12.427354 #14630]  INFO -- default-centos65:  ["force_default", :not_present],
-I, [2015-05-05T09:15:12.427374 #14630]  INFO -- default-centos65:  ["normal", :not_present],
-I, [2015-05-05T09:15:12.427388 #14630]  INFO -- default-centos65:  ["override", :not_present],
-I, [2015-05-05T09:15:12.427404 #14630]  INFO -- default-centos65:  ["role_override", :not_present],
-I, [2015-05-05T09:15:12.427420 #14630]  INFO -- default-centos65:  ["env_override", :not_present],
-I, [2015-05-05T09:15:12.427436 #14630]  INFO -- default-centos65:  ["force_override", :not_present],
-I, [2015-05-05T09:15:12.427451 #14630]  INFO -- default-centos65:  ["automatic", "10.0.2.15"]]
-I, [2015-05-05T09:15:12.427466 #14630]  INFO -- default-centos65: Converging 1 resources
-I, [2015-05-05T09:15:12.427481 #14630]  INFO -- default-centos65: Recipe: motd-attributes::default
-I, [2015-05-05T09:15:12.427495 #14630]  INFO -- default-centos65:   * template[/etc/motd] action create (up to date)
-I, [2015-05-05T09:15:12.446581 #14630]  INFO -- default-centos65: 
-I, [2015-05-05T09:15:12.446644 #14630]  INFO -- default-centos65: Running handlers:
-I, [2015-05-05T09:15:12.446660 #14630]  INFO -- default-centos65: Running handlers complete
-I, [2015-05-05T09:15:12.446681 #14630]  INFO -- default-centos65: Chef Client finished, 0/1 resources updated in 1.039059789 seconds
-I, [2015-05-05T09:15:13.419315 #14630]  INFO -- default-centos65: Finished converging <default-centos65> (0m3.46s).
+I, [2015-05-05T09:33:55.849551 #14777]  INFO -- default-centos65: -----> Destroying <default-centos65>...
+I, [2015-05-05T09:33:57.996884 #14777]  INFO -- default-centos65: ==> default: Forcing shutdown of VM...
+I, [2015-05-05T09:33:59.181840 #14777]  INFO -- default-centos65: ==> default: Destroying VM and associated drives...
+I, [2015-05-05T09:33:59.502839 #14777]  INFO -- default-centos65: Vagrant instance <default-centos65> destroyed.
+I, [2015-05-05T09:33:59.503901 #14777]  INFO -- default-centos65: Finished destroying <default-centos65> (0m3.65s).
