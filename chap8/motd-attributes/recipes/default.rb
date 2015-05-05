@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+node.default['motd-attributes']['message'] = "It's a great day to be alive!"
+
 template '/etc/motd' do
     source 'motd.erb'
     mode '0644'
