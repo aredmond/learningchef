@@ -13,7 +13,14 @@ remote_file package_local_path do
     source package_url
 end
 
-package package_local_path
+package package_name do
+    source package_local_path
+    provider Chef::Provider::Package::Rpm
+    notifies :run, 'execute[chef-server-ctl reconfigure]', :immediately
+end
 
 # reconfigure the installation
-execute 'chef-server-ctl reconfigure'
+execute 'chef-server-ctl reconfigure' do
+    command  'chef-server-ctl reconfigure'
+    action :nothing
+end
