@@ -1,0 +1,9 @@
+Most of the stuff in this chapter was done in the ../chef-repo folder to follow the book.
+
+Outside of the git scope I had to 
+==================================
+1. Added "192.168.33.34 default-centos65" to /etc/hosts 
+2. Added "192.168.33.35 node-centos65" to /etc/hosts
+3. On node node-centos65 Added "192.168.33.34 default-centos65" to /etc/hosts
+
+To get a connection to the server to work I had to scp the servers SSL cert to the .chef/trusted-certs folder
