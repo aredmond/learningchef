@@ -1,0 +1,28 @@
+E, [2015-05-11T02:18:14.857055 #14601] ERROR -- Kitchen: ------Exception-------
+E, [2015-05-11T02:18:14.857114 #14601] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2015-05-11T02:18:14.857138 #14601] ERROR -- Kitchen: Message: Kitchen YAML file /home/andr8673/repos/learningchef/chap11/chef-playground/.kitchen.yml does not exist.
+E, [2015-05-11T02:18:14.857151 #14601] ERROR -- Kitchen: ------Backtrace-------
+E, [2015-05-11T02:18:14.857162 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2015-05-11T02:18:14.857177 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/config.rb:145:in `data'
+E, [2015-05-11T02:18:14.857195 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/config.rb:124:in `suites'
+E, [2015-05-11T02:18:14.857204 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/config.rb:175:in `filter_instances'
+E, [2015-05-11T02:18:14.857213 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/config.rb:134:in `build_instances'
+E, [2015-05-11T02:18:14.857226 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/config.rb:110:in `instances'
+E, [2015-05-11T02:18:14.857237 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2015-05-11T02:18:14.857246 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2015-05-11T02:18:14.857254 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/command/list.rb:32:in `call'
+E, [2015-05-11T02:18:14.857263 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/cli.rb:56:in `perform'
+E, [2015-05-11T02:18:14.857271 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/cli.rb:108:in `list'
+E, [2015-05-11T02:18:14.857280 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2015-05-11T02:18:14.857288 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2015-05-11T02:18:14.857297 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/cli.rb:308:in `invoke_task'
+E, [2015-05-11T02:18:14.857305 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2015-05-11T02:18:14.857314 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2015-05-11T02:18:14.857323 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2015-05-11T02:18:14.857339 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2015-05-11T02:18:14.857348 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/gems/test-kitchen-1.4.0/bin/kitchen:13:in `<top (required)>'
+E, [2015-05-11T02:18:14.857356 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/bin/kitchen:23:in `load'
+E, [2015-05-11T02:18:14.857365 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/bin/kitchen:23:in `<main>'
+E, [2015-05-11T02:18:14.857373 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval'
+E, [2015-05-11T02:18:14.857381 #14601] ERROR -- Kitchen: /home/andr8673/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `<main>'
+E, [2015-05-11T02:18:14.857389 #14601] ERROR -- Kitchen: ----------------------
